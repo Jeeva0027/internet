@@ -1,0 +1,54 @@
+<!DOCTYPE html> 
+<!-- File name and document purpose --> 
+<html lang = "en">   
+    <head>     
+        <title> A title for the document </title>
+        <meta charset = "utf-8" />     
+        <!--include external resources here like adsense, javascript, styles-->
+    </head>   
+    <body>   
+        <form id="myForm" action="">
+            <label for="username">
+                Username: <input type="text" id="PAssenger name" name="Passenger name" />    
+            </label>
+            <br/>
+            <br/>
+            <label for="Destination">
+                Email: <input type="text" id="destination" name="Destination" />    
+            </label>
+            <br/>
+            <br/>
+            <label for="telephone">
+                Telephone: <input type="tel" id="telephone" name="telephone" />    
+            </label>
+            <br/>
+            <br/>
+            <label for="date">
+                Date of journey: <input type="date" id="date" name="date" />    
+            </label>
+            <br/>
+            <br/>
+            <label for="Round trip">
+                Round trip <input type="checkbox" id="Round trip" name="Round trip" value="Round trip" />    
+            </label>
+            <br/>
+            <br/>
+            <label for="male">
+                Male <input type="radio" id="male" name="gender" value="Male" />    
+            </label>
+            <label for="female">
+                Female <input type="radio" id="female" name="gender" value="Female" />    
+            </label>
+            <br/>
+            <br/>
+            <label for="date">
+                Date of return: <input type="date" id="date" name="date" />    
+            </label>
+            <br/>
+            <br/>
+            <input type="reset" id="reset" value="Reset" />
+            <input type="button" id="button" onclick="console.log(document.getElementById('myForm').elements[0])" value="Available flights" />
+            <input type="submit" id="submit" value="submit" />    
+        </form>
+    </body> 
+</html>

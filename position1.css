@@ -1,0 +1,29 @@
+.section { position: relative; }
+.centerFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cell {
+    border: 1px solid red;
+}
+.item1 {
+    width: 100px;
+    height: 100px;
+    grid-area: item1;
+}
+.item2 {
+    width: 100px;
+    height: 100px;
+    grid-area: item2;
+}
+.item3 {
+    width: 100px;
+    height: 100px;
+    grid-area: item3;
+}
+.item4 {
+    width: 100px;
+    height: 100px;
+    grid-area: item4;
+}
